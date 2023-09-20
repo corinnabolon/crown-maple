@@ -1,0 +1,26 @@
+.with-borders {
+  border-top: 10px solid gray;
+  border-bottom: 10px solid white;
+}
+
+.large-padding {
+  padding: 4em 1em 3em 1em;
+}
+
+.larger-padding {
+  padding: 6em 1em 6em 1em;
+}
+
+.large-font {
+  font-size: 40pt;
+}
+
+@media (max-width: 768px) {
+  .with-borders {
+    border-bottom: none;
+  }
+
+  .larger-padding {
+    padding: 1em;
+  }
+}
